@@ -1,0 +1,1 @@
+hyprland hyprlock hypridle hyprshot hyprsunset wofi waybar hyprpaper swaync brightnessctl
