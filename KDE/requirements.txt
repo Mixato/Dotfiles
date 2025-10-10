@@ -1,1 +1,3 @@
-Krohnkite KWIN Script 0.9.9.2
+Krohnkite KWIN Script 0.9.9.2 https://github.com/anametologin/krohnkite
+Modern Clock 1.0.0 https://github.com/prayag2/kde_modernclock
+Active Accent Dusk KWin Window Decoration https://github.com/nclarius/Plasma-window-decorations
