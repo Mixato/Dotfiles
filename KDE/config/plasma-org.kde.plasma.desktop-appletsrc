@@ -18,29 +18,12 @@ wallpaperplugin=org.kde.image
 immutability=1
 plugin=org.kde.plasma.pager
 
-[Containments][102][Applets][123]
-immutability=1
-plugin=org.kde.plasma.kicker
-
-[Containments][102][Applets][123][Configuration]
-PreloadWeight=100
-popupHeight=355
-popupWidth=300
-
-[Containments][102][Applets][123][Configuration][ConfigDialog]
+[Containments][102][Applets][103][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
-[Containments][102][Applets][123][Configuration][General]
-favoritesPortedToKAstats=true
-icon=org.cachyos.hello
-systemFavorites=suspend\\,hibernate\\,reboot\\,shutdown
-
-[Containments][102][Applets][123][Configuration][Shortcuts]
-global=Alt+F1
-
 [Containments][102][General]
-AppletOrder=123;103
+AppletOrder=103
 
 [Containments][124]
 activityId=
@@ -66,8 +49,27 @@ DialogWidth=720
 [Containments][124][Applets][144][Configuration][General]
 launchers=
 
+[Containments][124][Applets][148]
+immutability=1
+plugin=org.kde.plasma.kicker
+
+[Containments][124][Applets][148][Configuration]
+PreloadWeight=100
+popupHeight=346
+popupWidth=300
+
+[Containments][124][Applets][148][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][124][Applets][148][Configuration][General]
+alphaSort=true
+favoritesPortedToKAstats=true
+icon=org.cachyos.hello
+systemFavorites=suspend\\,hibernate\\,reboot\\,shutdown
+
 [Containments][124][General]
-AppletOrder=144
+AppletOrder=148;144
 
 [Containments][4][Wallpaper][org.kde.image][General]
 Image=/usr/share/wallpapers/cachyos-wallpapers/north.png
@@ -75,8 +77,8 @@ PreviewImage=/usr/share/wallpapers/cachyos-wallpapers/north.png
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][40]
-ItemGeometries-1366x768=Applet-145:464,16,512,160,0;
-ItemGeometriesHorizontal=Applet-145:464,16,512,160,0;
+ItemGeometries-1366x768=Applet-145:464,16,528,160,0;
+ItemGeometriesHorizontal=Applet-145:464,16,528,160,0;
 activityId=cefedf91-42d3-41d6-a40f-6cec2b48e8e2
 formfactor=0
 immutability=1
@@ -90,6 +92,7 @@ immutability=1
 plugin=com.github.prayag2.modernclock
 
 [Containments][40][Applets][145][Configuration][Appearance]
+time_character=
 use_24_hour_format=true
 
 [Containments][40][Applets][145][Configuration][ConfigDialog]
@@ -198,7 +201,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][80][Applets][83][Applets][95][Configuration]
-PreloadWeight=10
+PreloadWeight=0
 
 [Containments][80][Applets][83][Applets][96]
 immutability=1
