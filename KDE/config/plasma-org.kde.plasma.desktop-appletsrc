@@ -47,6 +47,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][124][Applets][144][Configuration][General]
+fill=false
 launchers=
 
 [Containments][124][Applets][148]
@@ -68,8 +69,16 @@ favoritesPortedToKAstats=true
 icon=org.cachyos.hello
 systemFavorites=suspend\\,hibernate\\,reboot\\,shutdown
 
+[Containments][124][Applets][150]
+immutability=1
+plugin=org.kde.plasma.marginsseparator
+
+[Containments][124][Applets][151]
+immutability=1
+plugin=org.kde.plasma.marginsseparator
+
 [Containments][124][General]
-AppletOrder=148;144
+AppletOrder=151;150;148;144
 
 [Containments][4][Wallpaper][org.kde.image][General]
 Image=/usr/share/wallpapers/cachyos-wallpapers/north.png
@@ -186,12 +195,15 @@ PreloadWeight=55
 immutability=1
 plugin=org.kde.kscreen
 
+[Containments][80][Applets][83][Applets][93][Configuration]
+PreloadWeight=55
+
 [Containments][80][Applets][83][Applets][94]
 immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][80][Applets][83][Applets][94][Configuration]
-PreloadWeight=25
+PreloadWeight=30
 
 [Containments][80][Applets][83][Applets][94][Configuration][General]
 migrated=true

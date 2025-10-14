@@ -10,19 +10,27 @@ Number=4
 Rows=1
 
 [Effect-blur]
-BlurStrength=4
-NoiseStrength=3
+BlurStrength=1
+NoiseStrength=14
 
 [Effect-translucency]
 ComboboxPopups=90
 Dialogs=90
+DropdownMenus=90
 Inactive=90
+IndividualMenuConfig=true
 Menus=90
 MoveResize=90
+PopupMenus=90
+TornOffMenus=90
 
 [Plugins]
+blurEnabled=true
+contrastEnabled=true
+fallapartEnabled=true
 krohnkiteEnabled=true
 translucencyEnabled=true
+wobblywindowsEnabled=true
 
 [Script-krohnkite]
 screenGapBetween=10
