@@ -86,8 +86,8 @@ PreviewImage=/usr/share/wallpapers/cachyos-wallpapers/north.png
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][40]
-ItemGeometries-1366x768=Applet-145:464,16,528,160,0;
-ItemGeometriesHorizontal=Applet-145:464,16,528,160,0;
+ItemGeometries-1366x768=Applet-145:368,16,640,160,0;
+ItemGeometriesHorizontal=Applet-145:368,16,640,160,0;
 activityId=cefedf91-42d3-41d6-a40f-6cec2b48e8e2
 formfactor=0
 immutability=1
@@ -203,7 +203,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][80][Applets][83][Applets][94][Configuration]
-PreloadWeight=30
+PreloadWeight=35
 
 [Containments][80][Applets][83][Applets][94][Configuration][General]
 migrated=true
